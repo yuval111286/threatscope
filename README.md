@@ -15,21 +15,21 @@ It enables defenders, students, and CTI teams to analyze cyber events quickly us
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🔍 **RAG Engine** (Retriever + Generator) for contextual threat intelligence  
-- 🎯 **MITRE ATT&CK Mapping** (Techniques, TTPs, behaviors)  
-- 📄 **Threat Report Parsing** (PDF, TXT, LOG)  
-- 📚 **Semantic Search** with ChromaDB embeddings  
-- 💬 **Real-Time Q&A** on all indexed intelligence  
-- 🧩 **IOC Extraction & Enrichment**  
-- 🖥️ **Interactive Streamlit App**  
-- 🔄 **Multiple Model Support:** Qwen, LLaMA3, Ollama local models, etc.  
-- 🧪 **Synthetic sample data** for safe experimentation  
+-  **RAG Engine** (Retriever + Generator) for contextual threat intelligence  
+-  **MITRE ATT&CK Mapping** (Techniques, TTPs, behaviors)  
+-  **Threat Report Parsing** (PDF, TXT, LOG)  
+-  **Semantic Search** with ChromaDB embeddings  
+-  **Real-Time Q&A** on all indexed intelligence  
+-  **IOC Extraction & Enrichment**  
+-  **Interactive Streamlit App**  
+-  **Multiple Model Support:** Qwen, LLaMA3, Ollama local models, etc.  
+-  **Synthetic sample data** for safe experimentation  
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 threatscope/
 ├── app.py # Streamlit UI – main interface
@@ -68,7 +68,7 @@ This repository is safe for public release and intended purely for:
 
 ---
 
-## 🧰 Installation
+##  Installation
 
 ### 1️⃣ Clone the repository
 ```bash
