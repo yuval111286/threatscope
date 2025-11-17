@@ -42,10 +42,6 @@ threatscope/
 ├── config/
 │   ├── settings.yaml          # General configuration
 │   └── .env.example           # Template for API keys
-├── utils/
-│   ├── loaders.py             # PDF / LOG loaders
-│   ├── mitre_parser.py        # MITRE technique mapping
-│   └── preprocess.py          # Chunking + text cleaning
 ├── requirements.txt
 └── README.md
 ```
