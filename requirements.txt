@@ -1,0 +1,7 @@
+streamlit
+PyPDF2
+matplotlib
+langchain-community
+langchain-text-splitters
+chromadb
+pandas
