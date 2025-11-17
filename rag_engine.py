@@ -6,6 +6,22 @@ from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 
+"""
+ThreatRAG — Lightweight Cybersecurity RAG Engine
+------------------------------------------------
+This module provides a small and practical Retrieval-Augmented Generation
+engine tailored for cybersecurity work.
+
+It loads local threat-intelligence reports, builds a Chroma vector database
+using Ollama embeddings, and answers queries with contextual retrieval +
+LLM reasoning. The engine automatically detects the correct analysis mode
+(Incident Response / Threat Intelligence / Hybrid) and returns structured
+JSON output including severity classification and a short summary.
+
+Designed to be simple, local, and fast — ideal for analysts, students,
+and red/blue-team automation.
+"""
+
 class ThreatRAG:
     def __init__(self, data_path="data/threat_reports", db_path="vectorstore"):
         self.data_path = data_path
