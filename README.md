@@ -31,6 +31,7 @@ It enables defenders, students, and CTI teams to analyze cyber events quickly us
 
 ##  Project Structure
 
+---
 threatscope/
 ├── app.py # Streamlit UI – main interface
 ├── rag_engine.py # Core RAG logic
@@ -47,8 +48,6 @@ threatscope/
 │ └── preprocess.py # Chunking + text cleaning
 ├── requirements.txt
 └── README.md
-
-
 ---
 
 ## 🔒 Data Disclaimer (Security Notice)
