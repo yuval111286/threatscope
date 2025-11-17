@@ -16,13 +16,13 @@ A Retrieval-Augmented Generation engine tailored for cybersecurity analysis.
 Uses local threat reports + vector embeddings + contextual LLM reasoning.
 
 Features:
-✔ Loads local threat intelligence reports (TXT)
-✔ Builds Chroma vectorstore with Ollama embeddings
-✔ Retrieves relevant context chunks for each query
-✔ Loads custom prompt templates from /prompts
-✔ Automatically detects IR / Threat Intel / Hybrid mode
-✔ Produces clean JSON output: events, IOC, MITRE, severity, summary
-✔ Fully offline — ideal for SOC labs, red/blue teams, and students
+ Loads local threat intelligence reports (TXT)
+ Builds Chroma vectorstore with Ollama embeddings
+ Retrieves relevant context chunks for each query
+ Loads custom prompt templates from /prompts
+ Automatically detects IR / Threat Intel / Hybrid mode
+ Produces clean JSON output: events, IOC, MITRE, severity, summary
+ Fully offline ideal for SOC labs, red/blue teams, and students
 ================================================================================
 """
 
