@@ -29,26 +29,26 @@ It enables defenders, students, and CTI teams to analyze cyber events quickly us
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
----
+```
 threatscope/
-├── app.py # Streamlit UI – main interface
-├── rag_engine.py # Core RAG logic
+├── app.py                     # Streamlit UI – main interface
+├── rag_engine.py              # Core RAG logic
 ├── data/
-│ ├── threat_reports/ # Synthetic threat intelligence samples
-│ └── mitre_attack.json # MITRE ATT&CK dataset
-├── vectorstore/ # ChromaDB embeddings (synthetic)
+│   ├── threat_reports/        # Synthetic threat intelligence samples
+│   └── mitre_attack.json      # MITRE ATT&CK dataset
+├── vectorstore/               # ChromaDB embeddings (synthetic)
 ├── config/
-│ ├── settings.yaml # General configuration
-│ └── .env.example # Template for API keys
+│   ├── settings.yaml          # General configuration
+│   └── .env.example           # Template for API keys
 ├── utils/
-│ ├── loaders.py # PDF / LOG loaders
-│ ├── mitre_parser.py # MITRE technique mapping
-│ └── preprocess.py # Chunking + text cleaning
+│   ├── loaders.py             # PDF / LOG loaders
+│   ├── mitre_parser.py        # MITRE technique mapping
+│   └── preprocess.py          # Chunking + text cleaning
 ├── requirements.txt
 └── README.md
----
+```
 
 ## 🔒 Data Disclaimer (Security Notice)
 
